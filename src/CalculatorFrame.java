@@ -62,8 +62,8 @@ public class CalculatorFrame {
             temp.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    number.setText(name);
                     expression += name;
+                    number.setText(expression);
                 }
             });
         else
